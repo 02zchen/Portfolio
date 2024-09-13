@@ -648,7 +648,7 @@ h6 {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
+  width: 240px;
   border-radius: 50%;
   border: 5px solid #474a4d;
   margin: 0 auto;
@@ -1056,6 +1056,7 @@ h6 {
 .contact .info-item i {
   font-size: 20px;
   color: var(--color-primary);
+  color: rgb(255, 255, 255);
   float: left;
   width: 44px;
   height: 44px;
@@ -1073,7 +1074,7 @@ h6 {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
 }
 
 .contact .info-item p {
@@ -1090,10 +1091,12 @@ h6 {
 
 .contact .php-email-form {
   width: 100%;
+  color: rgb(255, 255, 255);
 }
 
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
+  color: rgb(255, 255, 255);
 }
 
 .contact .php-email-form .error-message {
@@ -1166,7 +1169,7 @@ h6 {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 @keyframes animate-loading {
@@ -1179,6 +1182,10 @@ h6 {
   }
 }
 
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
