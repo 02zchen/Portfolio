@@ -786,6 +786,9 @@ h6 {
 --------------------------------------------------------------*/
 .gallery-single .portfolio-details-slider img {
   width: 100%;
+  max-width: 512;
+  object-fit: cover; /* or 'contain' if you prefer full visibility */
+
 }
 
 .gallery-single .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
